@@ -14,7 +14,14 @@ Die Alpha-Version ist darauf ausgelegt, mit möglichst wenig Zusatzaufwand getes
 alpha_masterdatei_kapitel_01.md
 ```
 
-Diese Datei wird in einem neuen Chat bei ChatGPT hochgeladen und steuert den Alpha-Test.
+Ablauf:
+
+1. Nutzerblock in der Alpha-Datei ausfüllen.
+2. Alpha-Datei in einen neuen Chat bei ChatGPT hochladen.
+3. Startsatz aus der Alpha-Datei verwenden.
+4. Nach jeder Lektion den neuen Lektionsblock oben im Lektionslog einfügen.
+5. Die Alpha-Datei nicht zurückschicken, weil sie private Lernspuren enthalten kann.
+6. Für Rückmeldung eine separate bereinigte Feedback-Datei von ChatGPT erstellen lassen.
 
 ---
 
@@ -63,9 +70,9 @@ Wichtige Dateien:
 
 | Datei | Zweck |
 |---|---|
-| `alpha_masterdatei_kapitel_01.md` | Upload-Datei für die Alpha-Testerin |
-| `docs/anleitung_fuer_testerin.md` | menschlich lesbare Anleitung für die Testerin |
-| `docs/anweisung_fuer_chatgpt.md` | operative Regeln für ChatGPT im Alpha-Test |
+| `alpha_masterdatei_kapitel_01.md` | kompakte Upload- und Arbeitsdatei für die Alpha-Testerin |
+| `docs/anleitung_fuer_testerin.md` | kurze menschlich lesbare Anleitung für die Testerin |
+| `docs/anweisung_fuer_chatgpt.md` | zentrale operative Regeln für ChatGPT und vollständige Repository-Dateiliste |
 | `docs/ssot_und_quellenregeln.md` | Quellen- und Abgrenzungsregeln |
 | `kapitel-01/kapitel_01_lernpfad.md` | Lernpfad für Kapitel 1 |
 | `kapitel-01/kapitel_01_quellenanker.md` | Orientierungspunkte im Primärtext |
@@ -85,6 +92,7 @@ Private Lernspuren bleiben außerhalb des Repositorys. Dazu gehören insbesonder
 - konkrete Antworten im Lernchat,
 - persönliche Schwierigkeiten,
 - private Notizen,
+- fortlaufend gepflegte Alpha-Masterdateien,
 - nicht freigegebene Alpha-Rückmeldungen.
 
 Öffentlich werden nur bereinigte, allgemeine Materialien und Templates geführt.
