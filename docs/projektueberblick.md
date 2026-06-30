@@ -36,7 +36,7 @@ Getestet wird vor allem:
 - welche Begriffe zu schnell eingeführt werden,
 - welche Fragen zu offen oder zu schwierig sind,
 - welche Missverständnisse wiederkehren,
-- ob die Alpha-Masterdatei als einzige Upload-Datei praktikabel ist.
+- ob eine kompakte Alpha-Masterdatei als einzige Upload-Datei praktikabel ist.
 
 ---
 
@@ -50,14 +50,20 @@ Sie braucht nur:
 alpha_masterdatei_kapitel_01.md
 ```
 
-Diese Datei enthält:
+Die Alpha-Datei ist bewusst kompakt. Sie enthält:
 
-- den Startauftrag für ChatGPT,
-- Quellen- und GitHub-Hinweise,
+- den Startauftrag,
+- den Link zur zentralen ChatGPT-Anweisung,
+- eine Fallback-Kurzregel, falls der Link nicht geöffnet werden kann,
 - Datenschutzregeln,
 - den Nutzerblock,
-- den aktuellen Lernstand,
-- die Dokumentationsregeln nach jeder Lektion.
+- das Lektionslog.
+
+Die ausführliche operative Logik steht zentral in:
+
+```text
+docs/anweisung_fuer_chatgpt.md
+```
 
 GitHub dient nur als Projektablage und Referenz. Die Testerin muss keine GitHub-Dateien bearbeiten.
 
@@ -80,7 +86,10 @@ Privat außerhalb des Repositorys:
 - konkrete Antworten der Testerin,
 - persönliche Schwierigkeiten,
 - private Notizen,
-- nicht freigegebene Alpha-Rückmeldungen.
+- nicht freigegebene Alpha-Rückmeldungen,
+- die fortlaufend gepflegte Alpha-Masterdatei.
+
+Die Testerin soll nicht die Alpha-Masterdatei zurückgeben. Wenn Feedback weitergegeben werden soll, erstellt ChatGPT eine separate bereinigte Feedback-Datei.
 
 ---
 
@@ -97,7 +106,18 @@ Die Alpha arbeitet mit kurzen Einheiten:
 7. Kapitelsynthese
 8. Alpha-Feedback
 
-Die fachliche Kapitelsynthese und das Alpha-Systemfeedback werden getrennt.
+Nach jeder Lektion erzeugt ChatGPT einen Lektionsblock.
+
+Der neue Block wird direkt unter die Einfügemarkierung gesetzt.
+
+Reihenfolge im Lektionslog:
+
+```text
+neueste Lektion oben
+ältere Lektionen darunter
+```
+
+Es gibt keinen separaten Block `AKTUELLER STAND`.
 
 ---
 
