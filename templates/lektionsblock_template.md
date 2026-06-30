@@ -2,6 +2,8 @@
 
 Dieses Template wird am Ende einer Alpha-Sitzung erzeugt und in die Alpha-Masterdatei kopiert.
 
+Es gibt keinen separaten Block `AKTUELLER STAND`. Der aktuelle Stand ergibt sich aus dem obersten Lektionsblock im Lektionslog.
+
 ---
 
 ## Lektion_XX_JJMMTT
@@ -49,20 +51,3 @@ Dieses Template wird am Ende einer Alpha-Sitzung erzeugt und in die Alpha-Master
 ### Nächster sinnvoller Schritt
 
 [Was soll als Nächstes bearbeitet werden?]
-
----
-
-# Ersatzblock für AKTUELLER STAND
-
-Dieser Block ersetzt den bisherigen `AKTUELLER STAND` in der Alpha-Masterdatei.
-
-```md
-## AKTUELLER STAND
-
-- Letzte abgeschlossene Einheit:
-- Nächste Einheit:
-- Aktiver Modus:
-- Wiederholen vor neuem Stoff:
-- Offene Schwierigkeiten:
-- Letzter Kurzstatus:
-```
