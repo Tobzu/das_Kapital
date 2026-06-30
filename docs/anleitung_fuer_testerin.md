@@ -7,7 +7,28 @@
 
 ---
 
-## 1. Worum es geht
+## 1. Kurzfassung
+
+Du brauchst für den Alpha-Test nur **eine Datei**:
+
+```text
+alpha_masterdatei_kapitel_01.md
+```
+
+Diese Datei lädst du in einem neuen Chat bei ChatGPT hoch. In dieser Alpha-Datei stehen alle weiteren Anweisungen, darunter:
+
+- wie du den Chat startest,
+- welche Primärquelle verwendet wird,
+- wie GitHub zu behandeln ist,
+- wie mit Quellen umzugehen ist,
+- wie deine Schwierigkeiten und Missverständnisse dokumentiert werden,
+- was am Ende einer Lektion gespeichert werden soll.
+
+Du musst keine GitHub-Dateien selbst öffnen, herunterladen oder bearbeiten.
+
+---
+
+## 2. Worum es geht
 
 Du testest eine frühe Alpha-Version eines Lernsystems zu Karl Marx’ *Das Kapital*, Band I.
 
@@ -19,11 +40,11 @@ Es geht nicht darum, ob du „gut“ oder „schlecht“ bist. Getestet wird vor
 - wo Begriffe zu schnell eingeführt werden,
 - welche Stellen zu schwer, zu knapp oder unklar sind.
 
-Deine Schwierigkeiten, Unsicherheiten und Missverständnisse sind deshalb ausdrücklich wichtig. Bitte teile sie mit, soweit du dich damit wohlfühlst. Gerade diese Rückmeldungen helfen, das Lernsystem zu verbessern.
+Deine Schwierigkeiten, Unsicherheiten und Missverständnisse sind ausdrücklich wichtig. Bitte teile sie mit, soweit du dich damit wohlfühlst. Gerade diese Rückmeldungen helfen, das Lernsystem zu verbessern.
 
 ---
 
-## 2. Verbindliche Textgrundlage
+## 3. Verbindliche Textgrundlage
 
 Die verbindliche Primärquelle dieses Alpha-Projekts ist:
 
@@ -34,59 +55,67 @@ Dietz Verlag Berlin, 1962.
 
 Projektintern wird diese Quelle als `mew_band23.pdf` bezeichnet.
 
-Die PDF wird nicht im Repository gespeichert. Sie wird nur als externe Primärquelle verwendet. Alle Erklärungen sollen zwischen drei Ebenen unterscheiden:
+Der externe Quellenlink lautet:
 
-1. Marx im Original,
-2. didaktische Erklärung,
-3. heutige Einordnung.
+```text
+https://marx-wirklich-studieren.net/wp-content/uploads/2012/11/mew_band23.pdf
+```
+
+Die PDF wird nicht im Repository gespeichert. Sie wird nur als externe Primärquelle verwendet.
+
+Alle weiteren Quellen- und GitHub-Hinweise stehen in der Alpha-Masterdatei. Für den Test musst du diese Regeln nicht separat aus dem Repository zusammensuchen.
 
 ---
 
-## 3. Was du brauchst
+## 4. Was du brauchst
 
 Du brauchst:
 
 - einen ChatGPT-Zugang,
-- die Alpha-Masterdatei für Kapitel 1,
-- den Link zur externen PDF oder Zugriff auf die PDF,
-- optional: das öffentliche GitHub-Repository mit den Kursmaterialien.
+- die Datei `alpha_masterdatei_kapitel_01.md`.
 
 Du brauchst keine Vorkenntnisse zu Marx, Ökonomie oder Philosophie.
 
+Du brauchst keinen eigenen GitHub-Zugang.
+
 ---
 
-## 4. Was privat bleibt
+## 5. Was privat bleibt
 
 Deine persönlichen Antworten, Schwierigkeiten, Notizen und Lernspuren bleiben privat.
 
 Du musst sie nicht an den Projektverantwortlichen schicken.
 
-Du kannst aber freiwillig Rückmeldungen weitergeben, zum Beispiel wenn:
+Du sollst aber Schwierigkeiten und Missverständnisse mitteilen, soweit du das möchtest. Besonders hilfreich sind Rückmeldungen wie:
 
-- eine Erklärung unverständlich war,
-- ein Begriff verwirrend war,
-- eine Frage zu offen oder zu schwer war,
-- ChatGPT offensichtlich falsch reagiert hat,
-- ein besonders großer Fehler im Ablauf passiert ist,
-- du eine Stelle besonders hilfreich fandest.
+- eine Erklärung war unverständlich,
+- ein Begriff war verwirrend,
+- eine Frage war zu offen oder zu schwer,
+- ChatGPT hat offensichtlich falsch reagiert,
+- ein besonders großer Fehler im Ablauf ist passiert,
+- eine Stelle war besonders hilfreich.
 
-Bitte teile besonders Schwierigkeiten und Missverständnisse mit, soweit du das möchtest. Diese Rückmeldungen sind für die Alpha wichtiger als perfekte Antworten.
+Private Antworten musst du nur mitschicken, wenn du das ausdrücklich möchtest.
 
 ---
 
-## 5. Wie du eine Sitzung startest
+## 6. Wie du eine Sitzung startest
 
 1. Öffne einen neuen Chat in ChatGPT.
-2. Füge den Startprompt aus der Alpha-Masterdatei ein.
-3. Falls die Alpha-Masterdatei hochgeladen werden soll, lade sie in den Chat hoch.
-4. Weise ChatGPT an, mit Kapitel 1 zu beginnen.
-5. Antworte möglichst in eigenen Worten.
+2. Lade die Datei `alpha_masterdatei_kapitel_01.md` hoch.
+3. Schreibe:
+
+```text
+Bitte führe die Alpha-Datei aus und beginne mit Kapitel 1.
+```
+
+4. Antworte möglichst in eigenen Worten.
 
 Du musst nicht versuchen, „wissenschaftlich“ zu klingen. Alltagssprache ist erwünscht, solange klar wird, was du verstanden hast.
 
 ---
 
-## 6. Wie du antworten sollst
+## 7. Wie du antworten sollst
 
 Antworte ehrlich und möglichst konkret.
 
@@ -112,11 +141,11 @@ Auch „Ich weiß es nicht“ ist eine gültige Antwort. Unsicherheit soll sicht
 
 ---
 
-## 7. Schwierigkeiten und Missverständnisse dokumentieren
+## 8. Schwierigkeiten und Missverständnisse dokumentieren
 
 Bitte halte während oder nach der Sitzung kurz fest, was schwierig war.
 
-Nutze dafür in deiner privaten Alpha-Datei einen Block wie diesen:
+Die Alpha-Masterdatei enthält dafür einen eigenen Bereich. Nutze dort zum Beispiel diesen Block:
 
 ```md
 ## Schwierigkeiten / Missverständnisse
@@ -128,7 +157,7 @@ Nutze dafür in deiner privaten Alpha-Datei einen Block wie diesen:
 - Soll diese Rückmeldung weitergegeben werden? ja / nein
 ```
 
-Beispiele:
+Beispiel:
 
 ```md
 - Schwierige Stelle: Wertform
@@ -138,17 +167,9 @@ Beispiele:
 - Soll diese Rückmeldung weitergegeben werden? ja
 ```
 
-```md
-- Schwierige Stelle: abstrakte Arbeit
-- Was war unklar? Ich habe abstrakte Arbeit zuerst als jede beliebige Arbeit verstanden.
-- Welche Erklärung hat geholfen? Die Abgrenzung zu konkreter Arbeit.
-- Was ist noch offen? Wie genau Arbeit gesellschaftlich vergleichbar wird.
-- Soll diese Rückmeldung weitergegeben werden? ja
-```
-
 ---
 
-## 8. Was am Ende einer Lektion passieren soll
+## 9. Was am Ende einer Lektion passieren soll
 
 Am Ende einer Lektion soll ChatGPT einen kurzen Ergebnisblock erzeugen.
 
@@ -161,13 +182,13 @@ Dieser Block sollte enthalten:
 - Schwierigkeiten oder Missverständnisse,
 - nächster Schritt.
 
-Diesen Block kannst du in deine private Alpha-Datei kopieren.
+Diesen Block kannst du in die Alpha-Masterdatei kopieren, sofern ChatGPT dich dazu auffordert.
 
 Du musst nichts veröffentlichen.
 
 ---
 
-## 9. Wann du abbrechen oder pausieren solltest
+## 10. Wann du abbrechen oder pausieren solltest
 
 Du kannst jederzeit pausieren oder abbrechen.
 
@@ -187,7 +208,7 @@ Bitte die Lektion hier beenden und einen Ergebnisblock erstellen.
 
 ---
 
-## 10. Was du optional zurückmelden kannst
+## 11. Was du optional zurückmelden kannst
 
 Wenn du Rückmeldung geben möchtest, reichen kurze Punkte.
 
@@ -210,7 +231,7 @@ Private Antworten musst du nur mitschicken, wenn du das ausdrücklich möchtest.
 
 ---
 
-## 11. Grundregel für die Alpha
+## 12. Grundregel für die Alpha
 
 Der Test ist erfolgreich, wenn sichtbar wird, was funktioniert und was nicht funktioniert.
 
