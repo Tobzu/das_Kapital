@@ -1,135 +1,147 @@
-# Anleitung für die Alpha-Testerin
+# Alpha-Masterdatei – Kapitel 1
 
-**Projekt:** KI-gestützter Selbstlernkurs zu Karl Marx, *Das Kapital*, Band I  
-**Alpha-Version:** v3.0-alpha.2  
+**Projekt:** KI-gestützter Selbstlernkurs zu Karl Marx, *Das Kapital*, Band I
+**Alpha-Version:** v3.0-alpha.2
 **Testumfang:** Kapitel 1 – Die Ware
+
+Diese Datei ist die private Arbeitsdatei der Testerin.
 
 ---
 
-## Kurzfassung
+## 1. Vor dem Start
 
-Du brauchst nur eine Datei:
-
-```text
-alpha_masterdatei_kapitel_01.md
-```
-
-Vorgehen:
-
-1. Öffne `alpha_masterdatei_kapitel_01.md`.
-2. Fülle dort den Nutzerblock aus.
-3. Lade die ausgefüllte Alpha-Datei in einen neuen Chat bei ChatGPT hoch.
-4. Schreibe im Chat:
+1. Fülle zuerst den Nutzerblock in dieser Datei aus.
+2. Lade danach diese Datei in einen neuen Chat bei ChatGPT hoch.
+3. Schreibe im Chat:
 
 ```text
 Bitte führe diese Alpha-Datei aus und beginne mit Kapitel 1.
 ```
 
-5. Nach jeder Lektion erstellt ChatGPT einen neuen Lektionsblock.
-6. Kopiere diesen Block direkt unter die Einfügemarkierung im Lektionslog der Alpha-Datei.
-7. Die neueste Lektion steht immer oben.
-8. Schicke die Alpha-Datei nicht zurück, weil sie private Antworten enthalten kann.
-9. Wenn du Feedback geben möchtest, lass ChatGPT eine separate bereinigte Feedback-Datei erstellen.
+Die Angaben im Nutzerblock helfen ChatGPT, ein an dich angepasstes Lehrumfeld zu gestalten: passende Beispiele, passendes Tempo, geeignete Rückfragen und weniger unnötige Hürden.
 
 ---
 
-## Zentrale Hintergrunddatei
+## 2. Zentrale Hintergrunddatei für ChatGPT
 
-Alles, was ChatGPT im Hintergrund für den Alpha-Test braucht, steht in einer zentralen Datei:
+Die vollständige Hintergrundanweisung für ChatGPT steht hier:
 
 ```text
 https://github.com/Tobzu/das_Kapital/blob/main/docs/hintergrund_alpha_kapitel_01.md
 ```
 
-Diese Datei enthält die Arbeitsregeln für ChatGPT, die Quellenregeln, die Lernstruktur, die Feingliederung von Kapitel 1, Wiederholungsregeln, Testregeln und das Format der Lektionsblöcke.
+ChatGPT soll diese Datei verwenden, wenn der Link geöffnet werden kann.
 
-Du musst diese Hintergrunddatei nicht selbst lesen. Sie ist vor allem dafür da, dass ChatGPT nicht mehrere verstreute Dateien zusammensuchen muss.
+Diese Hintergrunddatei enthält:
 
-Falls ChatGPT den Link nicht öffnen kann, ist das kein Abbruchgrund. In der Alpha-Masterdatei steht zusätzlich ein Kurzablauf, mit dem ChatGPT trotzdem weiterarbeiten soll.
+* Arbeitsauftrag,
+* Quellenregeln,
+* Datenschutzregeln,
+* Lernstruktur,
+* Feingliederung für Kapitel 1,
+* Wiederholungsregeln,
+* Testregeln,
+* Format des Lektionsblocks,
+* Feedback-Regel.
 
----
+Falls ChatGPT den Link nicht öffnen kann, gilt der Kurzablauf in dieser Alpha-Datei:
 
-## Was getestet wird
-
-Du testest nicht, ob du gut oder schlecht bist.
-
-Getestet wird das Lernsystem:
-
-- Sind die Erklärungen verständlich?
-- Ist die Reihenfolge sinnvoll?
-- Werden Begriffe zu schnell eingeführt?
-- Sind Fragen zu offen oder zu schwer?
-- Wiederholt ChatGPT sinnvoll oder verwirrend?
-- Sind die Einheiten zu groß?
-
-Schwierigkeiten, Unsicherheit und Abbrüche sind für den Test nützlich, weil daran sichtbar wird, was verbessert werden muss.
-
----
-
-## Was du brauchst
-
-Du brauchst:
-
-- einen ChatGPT-Zugang,
-- die Datei `alpha_masterdatei_kapitel_01.md`.
-
-Du brauchst nicht:
-
-- GitHub-Zugang,
-- Marx-Vorkenntnisse,
-- Ökonomie-Vorkenntnisse,
-- Philosophie-Vorkenntnisse.
+* mit Kapitel 1 – Die Ware beginnen,
+* kurze Lerneinheiten durchführen,
+* vor neuem Stoff nötige Vorbegriffe prüfen,
+* Unsicherheit nicht überspringen,
+* nach jeder Lektion einen neuen Lektionsblock erzeugen,
+* neue Lektionsblöcke direkt unter die Einfügemarkierung setzen,
+* neueste Lektion oben, ältere Lektionen darunter,
+* bei Abbruch möglichst trotzdem Feedback erstellen lassen.
 
 ---
 
-## Warum der Nutzerblock wichtig ist
+## 3. Datenschutz
 
-Der Nutzerblock hilft ChatGPT, das Lernen besser anzupassen.
+Diese Datei kann private Antworten, Schwierigkeiten und Notizen enthalten.
 
-Die Angaben helfen bei:
+Bitte diese Alpha-Datei nicht an den Projektverantwortlichen zurückschicken.
 
-- passenden Beispielen,
-- passendem Tempo,
-- geeigneten Rückfragen,
-- weniger Fachsprache,
-- besserem Umgang mit Unsicherheit.
-
-Du musst dort keine privaten Details eintragen. Kurze lernbezogene Angaben reichen.
-
----
-
-## Was privat bleibt
-
-Die Alpha-Datei kann private Antworten, Schwierigkeiten und Notizen enthalten.
-
-Schicke diese Datei deshalb nicht zurück.
-
-Wenn du Feedback geben möchtest, lass ChatGPT eine separate Feedback-Datei erstellen, zum Beispiel:
+Wenn Feedback weitergegeben werden soll, soll ChatGPT eine separate bereinigte Feedback-Datei erstellen, zum Beispiel:
 
 ```text
 alpha_feedback_kapitel_01.md
 ```
 
-Diese Feedback-Datei soll nur allgemeine Beobachtungen enthalten, außer du möchtest ausdrücklich konkrete Antworten mitschicken.
+Diese Feedback-Datei soll keine privaten Antworten enthalten, außer du möchtest das ausdrücklich.
 
 ---
 
-## Wenn du pausieren oder abbrechen möchtest
+## 4. Nutzerblock – bitte vor dem Hochladen ausfüllen
 
-Du kannst jederzeit pausieren oder abbrechen.
+Bitte trage nur ein, was für das Lernen relevant ist. Private Details sind nicht nötig.
 
-Sinnvolle Abbruchpunkte sind zum Beispiel:
+Die Hinweise unter den Fragen erklären, warum die Angaben für das Lernumfeld hilfreich sind.
 
-- du bist müde,
-- du verstehst mehrere Begriffe nacheinander nicht,
-- die Sitzung wird zu lang,
-- ChatGPT wiederholt sich nur noch,
-- du merkst, dass du eher rätst als verstehst.
+### Vorkenntnisse
 
-Dann schreibe zum Beispiel:
+[Hier eintragen: Gibt es Vorkenntnisse zu Marx, Ökonomie, Philosophie, Politik oder Geschichte? Falls nein: „keine“.]
+
+**Warum relevant:**
+ChatGPT kann besser einschätzen, welche Begriffe erklärt werden müssen.
+
+### Allgemeine Interessen / vertraute Themenfelder
+
+[Hier eintragen: Gibt es Themen, mit denen du dich gut auskennst oder die dich interessieren? Zum Beispiel Handwerk, Naturwissenschaften, Pflege, Technik, Kunst, Musik, Sport, Kochen, Tiere, Geschichte, Spiele usw.]
+
+**Warum relevant:**
+ChatGPT kann passende Beispiele und Metaphern wählen.
+
+### Bevorzugter Antwortstil
+
+[Hier eintragen: z. B. kurze Antworten, ausführliche Antworten, viele Beispiele, langsames Vorgehen, Rückfragen, Alltagssprache.]
+
+**Warum relevant:**
+ChatGPT kann Tempo und Erklärungstiefe besser anpassen.
+
+### Bekannte Schwierigkeiten beim Lernen
+
+[Hier eintragen: z. B. lange Texte, abstrakte Begriffe, Fremdwörter, Konzentration, Unsicherheit beim Antworten.]
+
+**Warum relevant:**
+ChatGPT kann früher wiederholen, Begriffe langsamer einführen und prüfen, ob etwas wirklich verstanden wurde.
+
+### Umgang mit Fehlern und Unsicherheit
+
+[Hier eintragen: Wie soll ChatGPT reagieren, wenn eine Antwort unsicher, teilweise falsch oder unklar ist?]
+
+**Warum relevant:**
+Das hilft, Rückfragen so zu stellen, dass sie beim Lernen helfen und nicht unnötig wie eine Prüfung wirken.
+
+### Was nicht gewünscht ist
+
+[Hier eintragen: z. B. zu lange Erklärungen, zu viele Fachbegriffe, Prüfungston, Bewertung der Person.]
+
+**Warum relevant:**
+ChatGPT kann vermeiden, dass der Lernprozess unnötig belastend oder unpassend wird.
+
+---
+
+## 5. Aktive Hinweise für ChatGPT
+
+Hier können später kurze Regeln eingetragen werden, wenn im Test etwas grundsätzlich angepasst werden muss.
+
+[Noch keine aktiven Hinweise.]
+
+---
+
+## 6. Lektionslog
+
+Neue Lektionsblöcke werden direkt unter dieser Markierung eingefügt.
+
+Die Reihenfolge ist immer:
 
 ```text
-Bitte die Lektion hier beenden und einen Lektionsblock erstellen. Erstelle danach bitte eine kurze separate Feedback-Datei für den Alpha-Test.
+neueste Lektion oben
+ältere Lektionen darunter
 ```
 
-Auch ein Abbruch ist ein brauchbares Testergebnis, wenn sichtbar wird, woran es lag.
+<!-- NEUE LEKTION DIREKT UNTERHALB DIESES BLOCKS EINFÜGEN -->
+
+Noch keine abgeschlossene Lektion.
