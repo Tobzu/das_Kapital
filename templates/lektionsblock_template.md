@@ -4,9 +4,16 @@ Dieses Template wird am Ende einer Alpha-Sitzung erzeugt und in die Alpha-Master
 
 Es gibt keinen separaten Block `AKTUELLER STAND`. Der aktuelle Stand ergibt sich aus dem obersten Lektionsblock im Lektionslog.
 
+Bestehende ältere Lektionsblöcke bleiben gültig. Neue Blöcke verwenden die folgende Struktur.
+
 ---
 
-## Lektion_XX_JJMMTT
+## Lektion 1.x – [Arbeitstitel]
+
+**Datum:** YYYY-MM-DD  
+**Modus:** neues Wissen / Wiederholung / Test / Review / Feedback  
+**Quelle:** [Kapitel, Abschnitt, gegebenenfalls genauer Primärquellenbezug]  
+**Quellenstatus:** geprüft / teilweise geprüft / noch zu prüfen
 
 ### Bearbeiteter Abschnitt
 
@@ -15,6 +22,10 @@ Es gibt keinen separaten Block `AKTUELLER STAND`. Der aktuelle Stand ergibt sich
 ### Zentrale Begriffe
 
 [Welche Begriffe wurden eingeführt, wiederholt oder geprüft?]
+
+### Nur erwähnt, noch nicht eingeführt
+
+[Welche Begriffe wurden nur als Ausblick genannt und dürfen noch nicht vorausgesetzt oder geprüft werden?]
 
 ### Sicher verstanden
 
@@ -30,19 +41,23 @@ Es gibt keinen separaten Block `AKTUELLER STAND`. Der aktuelle Stand ergibt sich
 
 ### Verwendete Beispiele / Metaphern
 
-[Welche Beispiele oder Metaphern wurden verwendet? Haben sie geholfen?]
+[Welche Beispiele oder Metaphern wurden verwendet? Was zeigen sie gut und wo liegt ihre Grenze?]
 
 ### Reaktion von ChatGPT
 
-[Wie wurde reagiert? Zum Beispiel Wiederholung, anderes Beispiel, Kontrollfrage, langsamere Erklärung.]
+[Wie wurde reagiert? Zum Beispiel Wiederholung, anderes Beispiel, Kontrollfrage oder langsamere Erklärung.]
 
 ### Wirkung der Reaktion
 
 [Hat die Reaktion geholfen? Wurde das Problem kleiner, größer oder blieb es gleich?]
 
+### Lektionsgrenze und Stopgrund
+
+[Welches Lernziel bildete die Grenze? Warum wurde die Lektion an dieser Stelle beendet?]
+
 ### Möglicher Systemhinweis
 
-[Wurde ein Fehler im Ablauf oder eine nötige Workflow-Anpassung erkannt? Falls nein: „kein Systemhinweis“.]
+[Wurde ein Fehler im Ablauf oder eine nötige Anpassung erkannt? Falls nein: `kein Systemhinweis`.]
 
 ### Für die nächste Lektion beachten
 
