@@ -2,7 +2,7 @@
 
 Diese Vorlage erzeugt die private Arbeitsdatei für einen Alpha-Test.
 
-Die Datei bleibt absichtlich kompakt. Die ausführliche Steuerlogik steht in `docs/anweisung_fuer_chatgpt.md`.
+Die Datei bleibt absichtlich kompakt. Die ausführliche Steuerlogik steht in den verlinkten Repository-Dateien.
 
 ---
 
@@ -30,22 +30,53 @@ Die Angaben im Nutzerblock helfen ChatGPT, ein angepasstes Lehrumfeld zu gestalt
 
 ---
 
-## 3. Zentrale Anweisung für ChatGPT
+## 3. Zentrale Anweisungen für ChatGPT
 
-Die ausführliche und jeweils wartbare Anweisung für ChatGPT steht im Repository:
+ChatGPT soll für die Durchführung diese Dateien verwenden:
+
+### Grundanweisung
 
 ```text
 https://github.com/Tobzu/das_Kapital/blob/main/docs/anweisung_fuer_chatgpt.md
 ```
 
-ChatGPT soll diese Datei verwenden, wenn der Link geöffnet werden kann.
+### Verbindliche Ergänzungsregeln der Demo
 
-Falls ChatGPT den Link nicht öffnen kann, gilt der Kurzablauf in dieser Alpha-Datei:
+```text
+https://github.com/Tobzu/das_Kapital/blob/main/docs/demo_ergaenzungsregeln.md
+```
+
+### Verbindliches Format neuer Lektionsblöcke
+
+```text
+https://github.com/Tobzu/das_Kapital/blob/main/templates/lektionsblock_template.md
+```
+
+### Regeln für Beispiele und Metaphern
+
+```text
+https://github.com/Tobzu/das_Kapital/blob/main/docs/metaphernregeln.md
+```
+
+Die Grundanweisung enthält den allgemeinen Ablauf. Die Ergänzungsregeln präzisieren für neue Demo-Chats:
+
+- die Lektionsgrenze und das rechtzeitige Beenden,
+- den strengen Terminologie-Lock,
+- Test- und Zuordnungsfragen,
+- das aktuelle Lektionsblockformat,
+- den kontrollierten Einsatz von Metaphern.
+
+Bei Widersprüchen zu älteren Formulierungen in der Grundanweisung gelten die Ergänzungsregeln und das aktuelle Lektionsblock-Template.
+
+Falls ChatGPT die Links nicht öffnen kann, gilt der Kurzablauf in dieser Alpha-Datei:
 
 - mit dem angegebenen Testumfang beginnen,
 - kurze Lerneinheiten durchführen,
 - vor neuem Stoff nötige Vorbegriffe prüfen,
+- nur erklärte zentrale Begriffe verwenden und prüfen,
 - Unsicherheit nicht überspringen,
+- zu Beginn jeder Lektion ein konkretes Lernziel und eine Lektionsgrenze nennen,
+- die Lektion beenden, sobald das Lernziel erreicht ist oder ein neuer Zentralbegriff nötig würde,
 - nach jeder Lektion einen neuen Lektionsblock erzeugen,
 - neue Lektionsblöcke direkt unter die Einfügemarkierung setzen,
 - neueste Lektion oben, ältere Lektionen darunter,
